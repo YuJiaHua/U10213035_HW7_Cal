@@ -24,6 +24,10 @@ public class StillCalculator extends Application{
 	private TextField tf = new TextField();
 	private TextField tf2 = new TextField();
 	
+	public static void main(String[] args) {
+		launch(args);
+	}
+	
 	public void start (Stage primaryStage) {
 		//Add GridPane
 		GridPane pane = new GridPane();
